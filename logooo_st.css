@@ -1,0 +1,144 @@
+body{
+    background-color: lightslategrey;
+}
+#logo{
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+}
+#logo_img{
+    margin: 25px;
+}
+#logo_nav{
+    display: flex;
+    width: 75%;
+    height: 75px;
+    background-color: darkgrey;
+    margin: auto;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    align-self: center;
+    margin-left: 30px;
+}
+#fb_logo{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin-left: 69%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main_pic {
+    margin: 30px;
+}
+.boxes{
+    background-color: white;
+    padding: 15px;
+    width: 25%;
+    margin: 30px 0 30px 0;
+}
+#main_div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 75%;
+}
+#content{
+    background-color: white;
+    width: 75%;
+}
+#big_box{
+    margin: 30px;
+}
+#content_text{
+    width: 75%;
+}
+#end{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+#gallery{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+html{
+    font-family: 'Exo 2', sans-serif;
+}
+footer{
+    margin-top: 30px;
+}
+@keyframes fade {
+    0% {opacity: 1}
+    25% {opacity: 0}
+    50% {opacity: 0}
+    75% {opacity: 0}
+    100% {opacity: 1}
+}
+@keyframes fade2 {
+    0% {opacity: 0}
+    20% {opacity: 1}
+    50% {opacity: 0}
+    75% {opacity: 0}
+    100% {opacity: 1}
+}
+@keyframes fade3 {
+    0% {opacity: 0}
+    20% {opacity: 0}
+    40% {opacity: 1}
+    75% {opacity: 0}
+    100% {opacity: 1}
+}
+@keyframes fade4 {
+    0% {opacity: 0}
+    20% {opacity: 0}
+    50% {opacity: 0}
+    60% {opacity: 1}
+    100% {opacity: 1}
+}
+@keyframes fade5 {
+    0% {opacity: 0}
+    25% {opacity: 1}
+    50% {opacity: 0}
+    75% {opacity: 0}
+    100% {opacity: 1}
+}
+#main_pic{
+    animation: fade 5s infinite;
+}
+#main_pic2{
+    animation: fade2 5s infinite;
+}
+#main_pic3{
+    animation: fade3 5s infinite;
+}
+#main_pic4{
+    animation: fade4 5s infinite;
+}
+#main_pic5{
+    animation: fade5 5s infinite;
+}
+#main_pic,#main_pic2,#main_pic3,#main_pic4,#main_pic5{
+    position: absolute;
+}
